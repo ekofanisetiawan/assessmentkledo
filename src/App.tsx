@@ -65,7 +65,6 @@ function App() {
   return (
     <div className="flex min-h-screen bg-gray-100">
 
-      {/* SIDEBAR */}
 
       <aside className="w-80 bg-white border-r p-8">
 
@@ -79,7 +78,6 @@ function App() {
 
         <div className="space-y-6">
 
-          {/* PROVINCE */}
 
           <div>
             <label className="text-xs text-gray-400 block mb-2">
@@ -102,7 +100,6 @@ function App() {
             </select>
           </div>
 
-          {/* REGENCY */}
 
           <div>
             <label className="text-xs text-gray-400 block mb-2">
@@ -125,7 +122,6 @@ function App() {
             </select>
           </div>
 
-          {/* DISTRICT */}
 
           <div>
             <label className="text-xs text-gray-400 block mb-2">
@@ -159,11 +155,9 @@ function App() {
         </button>
       </aside>
 
-      {/* MAIN CONTENT */}
 
       <main className="flex-1 p-16">
 
-        {/* BREADCRUMB */}
 
         <div className="breadcrumb text-sm text-gray-400 mb-12 tracking-wide">
 
